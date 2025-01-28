@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+/* General Reset */
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: url(images1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lexend", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* Container Styling */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="number"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Output Styling */
+#change-due {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #aaa;
+}
